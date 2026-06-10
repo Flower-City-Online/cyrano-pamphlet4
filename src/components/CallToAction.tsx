@@ -11,7 +11,7 @@ export default function CallToAction() {
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         <ScrollReveal>
           <p className="text-cyrano-pink font-[family-name:var(--font-accent)] tracking-wider mb-4">You Deserve to Belong</p>
-          <h2 className="font-[family-name:var(--font-display)] font-extrabold text-4xl sm:text-6xl md:text-7xl leading-tight mb-6">
+          <h2 className="font-[family-name:var(--font-display)] font-extrabold text-4xl sm:text-6xl md:text-7xl leading-tight mb-6 cta-title-scale">
             <span className="gradient-text">Connection is</span><br />
             <span className="text-white">not a luxury.</span><br />
             <span className="gradient-text-pink">It is a right.</span>

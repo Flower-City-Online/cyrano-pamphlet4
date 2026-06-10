@@ -535,15 +535,27 @@ body::before {
   );
 }
 
-/* ── Site-wide 58px horizontal padding ── */
+/* ── Site-wide horizontal padding ── */
 .side-padding {
-  padding-left: 58px;
-  padding-right: 58px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 /* ── Mobile menu top clearance ── */
 .mobile-menu-pt {
   padding-top: 120px;
-  padding-left: 58px;
-  padding-right: 58px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+/* ── Mobile text scaling (≤ 479px) ── */
+@media (max-width: 479px) {
+  .hero-title-scale {
+    font-size: 1.875rem !important;
+    line-height: 1 !important;
+  }
+  .cta-title-scale {
+    font-size: 1.625rem !important;
+    line-height: 1.1 !important;
+  }
 }

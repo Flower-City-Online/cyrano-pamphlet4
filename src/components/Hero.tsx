@@ -32,7 +32,7 @@ export default function Hero() {
             Cyrano Connect — Real Human Connection
           </motion.p>
           <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5, duration: 0.8 }}
-            className="font-[family-name:var(--font-display)] font-extrabold text-5xl sm:text-7xl md:text-8xl lg:text-9xl leading-[0.9] tracking-tight mb-8"
+            className="font-[family-name:var(--font-display)] font-extrabold text-5xl sm:text-7xl md:text-8xl lg:text-9xl leading-[0.9] tracking-tight mb-8 hero-title-scale"
             data-testid="hero-heading">
             <FloatingLetters text="A World" className="gradient-text" />
             <br />
