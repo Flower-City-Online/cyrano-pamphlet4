@@ -26,7 +26,7 @@ const pillars = [
 
 export default function OurApproach() {
   return (
-    <section id="our-approach" className="relative py-32 px-[58px] overflow-hidden">
+    <section id="our-approach" className="relative py-32 side-padding overflow-hidden">
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyrano-pink/4 to-transparent" />
         <div className="absolute -top-1/4 -right-1/4 w-[600px] h-[600px] bg-cyrano-pink/8 blur-[150px] rounded-full" />

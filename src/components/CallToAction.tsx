@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 export default function CallToAction() {
   return (
-    <section id="cta" className="relative py-32 px-[58px] overflow-hidden">
+    <section id="cta" className="relative py-32 side-padding overflow-hidden">
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyrano-pink/6 to-transparent" />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-cyrano-pink/10 blur-[150px] rounded-full animate-pulse-glow" />

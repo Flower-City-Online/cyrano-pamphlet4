@@ -534,3 +534,16 @@ body::before {
     rgba(254, 60, 114, 0.04) 100%
   );
 }
+
+/* ── Site-wide 58px horizontal padding ── */
+.side-padding {
+  padding-left: 58px;
+  padding-right: 58px;
+}
+
+/* ── Mobile menu top clearance ── */
+.mobile-menu-pt {
+  padding-top: 120px;
+  padding-left: 58px;
+  padding-right: 58px;
+}

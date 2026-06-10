@@ -9,7 +9,7 @@ const stats = [
 
 export default function TheProblem() {
   return (
-    <section id="the-problem" className="relative py-32 px-[58px] overflow-hidden">
+    <section id="the-problem" className="relative py-32 side-padding overflow-hidden">
       <div className="absolute inset-0">
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-cyrano-pink/5 blur-[120px] rounded-full" />
       </div>

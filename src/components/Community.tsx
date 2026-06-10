@@ -10,7 +10,7 @@ const offerings = [
 
 export default function Community() {
   return (
-    <section id="community" className="relative py-32 px-[58px] overflow-hidden">
+    <section id="community" className="relative py-32 side-padding overflow-hidden">
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyrano-pink/4 to-transparent" />
         <div className="absolute top-1/2 left-0 w-[400px] h-[400px] bg-cyrano-pink/6 blur-[120px] rounded-full" />

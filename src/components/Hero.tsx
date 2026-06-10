@@ -25,7 +25,7 @@ export default function Hero() {
       </div>
       <div className="absolute inset-0 opacity-[0.03]" aria-hidden="true"
         style={{ backgroundImage: 'radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px)', backgroundSize: '40px 40px' }} />
-      <div className="relative z-10 text-center px-[58px] max-w-5xl mx-auto">
+      <div className="relative z-10 text-center side-padding max-w-5xl mx-auto">
         <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1, ease: [0.25, 0.46, 0.45, 0.94] }}>
           <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3, duration: 0.8 }}
             className="text-cyrano-pink font-[family-name:var(--font-accent)] text-lg mb-6 tracking-wider glow-pink">
