@@ -5,7 +5,7 @@ const pillars = [
   {
     icon: '\u25C8',
     title: 'Real-World First',
-    description: 'Every interaction in Cyrino Connect is oriented toward a real in-person meeting. Digital communication is a means to an end, not the destination.',
+    description: 'Every interaction in Cyrano Connect is oriented toward a real in-person meeting. Digital communication is a means to an end, not the destination.',
   },
   {
     icon: '\u25C9',
@@ -20,13 +20,13 @@ const pillars = [
   {
     icon: '\u25CB',
     title: 'Community as Infrastructure',
-    description: 'Beyond one-on-one connection, Cyrino Connect builds local social communities where belonging is possible for everyone, not just the socially confident.',
+    description: 'Beyond one-on-one connection, Cyrano Connect builds local social communities where belonging is possible for everyone, not just the socially confident.',
   },
 ]
 
 export default function OurApproach() {
   return (
-    <section id="our-approach" className="relative py-32 px-6 overflow-hidden">
+    <section id="our-approach" className="relative py-32 px-[58px] overflow-hidden">
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyrano-pink/4 to-transparent" />
         <div className="absolute -top-1/4 -right-1/4 w-[600px] h-[600px] bg-cyrano-pink/8 blur-[150px] rounded-full" />
@@ -40,7 +40,7 @@ export default function OurApproach() {
             </h2>
             <p className="text-cyrano-gray text-lg max-w-2xl mx-auto leading-relaxed">
               Connection is not a product. It is a human capacity that needs the right conditions
-              to grow. Cyrino Connect creates those conditions.
+              to grow. Cyrano Connect creates those conditions.
             </p>
           </div>
         </ScrollReveal>

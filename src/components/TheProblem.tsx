@@ -9,7 +9,7 @@ const stats = [
 
 export default function TheProblem() {
   return (
-    <section id="the-problem" className="relative py-32 px-6 overflow-hidden">
+    <section id="the-problem" className="relative py-32 px-[58px] overflow-hidden">
       <div className="absolute inset-0">
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-cyrano-pink/5 blur-[120px] rounded-full" />
       </div>
@@ -52,7 +52,7 @@ export default function TheProblem() {
               Digital platforms have given us more connections than ever — and left many people
               feeling more isolated than before. The answer is not more technology. It is better
               technology built specifically to facilitate real presence, not substitute for it.
-              That is what Cyrino Connect is for.
+              That is what Cyrano Connect is for.
             </p>
           </div>
         </ScrollReveal>

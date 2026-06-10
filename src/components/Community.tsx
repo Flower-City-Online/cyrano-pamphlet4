@@ -10,7 +10,7 @@ const offerings = [
 
 export default function Community() {
   return (
-    <section id="community" className="relative py-32 px-6 overflow-hidden">
+    <section id="community" className="relative py-32 px-[58px] overflow-hidden">
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyrano-pink/4 to-transparent" />
         <div className="absolute top-1/2 left-0 w-[400px] h-[400px] bg-cyrano-pink/6 blur-[120px] rounded-full" />
@@ -23,7 +23,7 @@ export default function Community() {
               Many Ways to<br /><span className="gradient-text">Belong Again</span>
             </h2>
             <p className="text-cyrano-gray text-lg max-w-2xl mx-auto leading-relaxed">
-              Loneliness is not one problem. It is many. Cyrino Connect addresses it across
+              Loneliness is not one problem. It is many. Cyrano Connect addresses it across
               different types of connection and different stages of social need.
             </p>
           </div>

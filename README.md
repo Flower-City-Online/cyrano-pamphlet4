@@ -1,6 +1,6 @@
-# Cyrino Connect — Solving the Loneliness Epidemic
+# Cyrano Connect — Solving the Loneliness Epidemic
 
-Informational site about Cyrino Connect, a mission-driven platform dedicated to
+Informational site about Cyrano Connect, a mission-driven platform dedicated to
 reducing loneliness through intentional real-world connection, human-guided AI
 support, and community-based companionship.
 
@@ -23,6 +23,6 @@ npm run preview
 ## Git / Deploy
 
 ```bash
-git remote add origin https://github.com/<org>/cyrino-pamphlet4.git
+git remote add origin https://github.com/<org>/cyrano-pamphlet4.git
 git push -u origin main
 ```

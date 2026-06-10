@@ -10,7 +10,7 @@ const steps = [
   {
     number: '02', icon: '\u25C9',
     title: 'Get Matched by a Human Guide',
-    description: 'A trained Cyrino guide reviews your profile and finds someone whose needs and values complement yours. No algorithm decides alone. A person does.',
+    description: 'A trained Cyrano guide reviews your profile and finds someone whose needs and values complement yours. No algorithm decides alone. A person does.',
   },
   {
     number: '03', icon: '\u25C7',
@@ -21,7 +21,7 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section id="how-it-works" className="relative py-32 px-6 overflow-hidden">
+    <section id="how-it-works" className="relative py-32 px-[58px] overflow-hidden">
       <div className="absolute inset-0">
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-cyrano-pink/5 blur-[120px] rounded-full" />
         <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-purple-900/10 blur-[100px] rounded-full" />
@@ -34,7 +34,7 @@ export default function HowItWorks() {
               From Isolation<br />to Belonging
             </h2>
             <p className="text-cyrano-gray text-lg max-w-2xl mx-auto leading-relaxed">
-              The first step is the hardest one. Cyrino Connect makes it easier by putting
+              The first step is the hardest one. Cyrano Connect makes it easier by putting
               a thoughtful person in your corner before you take it.
             </p>
           </div>
