@@ -9,13 +9,13 @@ const stats = [
 
 export default function TheProblem() {
   return (
-    <section id="the-problem" className="relative py-32 side-padding overflow-hidden">
+    <section id="the-problem" className="relative py-32 side-padding overflow-hidden flex flex-col items-center">
       <div className="absolute inset-0">
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-cyrano-pink/5 blur-[120px] rounded-full" />
       </div>
-      <div className="relative z-10 max-w-7xl mx-auto">
+      <div className="relative z-10 max-w-7xl mx-auto w-full">
         <ScrollReveal>
-          <div className="text-center mb-20">
+          <div className="text-center mb-20 w-full">
             <p className="text-cyrano-pink font-[family-name:var(--font-accent)] tracking-wider mb-4">The Reality</p>
             <h2 className="font-[family-name:var(--font-display)] font-extrabold text-4xl sm:text-5xl md:text-6xl text-white mb-6">
               Loneliness Is Not<br /><span className="gradient-text">a Personal Failing</span>

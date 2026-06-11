@@ -1,7 +1,6 @@
 export default function Footer() {
   return (
     <footer className="relative border-t border-white/5 py-12 side-padding">
-      <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="flex flex-col items-center md:items-start gap-2">
             <span className="font-[family-name:var(--font-display)] font-extrabold text-xl gradient-text tracking-tight">Cyrano Connect</span>
@@ -18,7 +17,6 @@ export default function Footer() {
             </ul>
           </nav>
         </div>
-      </div>
     </footer>
   )
 }

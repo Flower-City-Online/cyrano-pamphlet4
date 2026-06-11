@@ -10,14 +10,14 @@ const offerings = [
 
 export default function Community() {
   return (
-    <section id="community" className="relative py-32 side-padding overflow-hidden">
+    <section id="community" className="relative py-32 side-padding overflow-hidden flex flex-col items-center">
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyrano-pink/4 to-transparent" />
         <div className="absolute top-1/2 left-0 w-[400px] h-[400px] bg-cyrano-pink/6 blur-[120px] rounded-full" />
       </div>
-      <div className="relative z-10 max-w-7xl mx-auto">
+      <div className="relative z-10 max-w-7xl mx-auto w-full">
         <ScrollReveal>
-          <div className="text-center mb-20">
+          <div className="text-center mb-20 w-full">
             <p className="text-cyrano-pink font-[family-name:var(--font-accent)] tracking-wider mb-4">What We Offer</p>
             <h2 className="font-[family-name:var(--font-display)] font-extrabold text-4xl sm:text-5xl md:text-6xl text-white mb-6">
               Many Ways to<br /><span className="gradient-text">Belong Again</span>

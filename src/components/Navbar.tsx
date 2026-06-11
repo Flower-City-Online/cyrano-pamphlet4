@@ -21,7 +21,7 @@ export default function Navbar() {
       <motion.nav initial={{ y: -100 }} animate={{ y: 0 }} transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? 'glass-strong shadow-[0_4px_30px_rgba(0,0,0,0.3)]' : 'bg-transparent'}`}
         data-testid="navbar">
-        <div className="max-w-7xl mx-auto side-padding py-4 flex items-center justify-between">
+        <div className="side-padding py-4 flex items-center justify-between">
           <a href="#hero" className="flex items-center gap-2" data-testid="nav-logo">
             <span className="font-[family-name:var(--font-display)] font-extrabold text-xl gradient-text tracking-tight">Cyrano Connect</span>
           </a>
